@@ -1,0 +1,48 @@
+/* Jellyfin Custom CSS to Mimic Pornhub Style */
+
+body {
+    background-color: #181818;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #ff9900; /* Pornhub's signature orange */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header, nav, footer {
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #ff9900;
+}
+
+button, input[type="submit"] {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #e68a00;
+}
+
+.card, .item {
+    background-color: #252525;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.card:hover, .item:hover {
+    border: 1px solid #ff9900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+/* Override any specific details you'd like to personalize further */
